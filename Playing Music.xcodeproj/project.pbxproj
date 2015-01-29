@@ -13,6 +13,10 @@
 		0814FCA71A78238B00BDB1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0814FCA51A78238B00BDB1DD /* Main.storyboard */; };
 		0814FCA91A78238B00BDB1DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0814FCA81A78238B00BDB1DD /* Images.xcassets */; };
 		0814FCB51A78238B00BDB1DD /* Playing_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814FCB41A78238B00BDB1DD /* Playing_MusicTests.swift */; };
+		0814FCBF1A78245F00BDB1DD /* 01 Sunrise (Come My Way).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0814FCBE1A78245F00BDB1DD /* 01 Sunrise (Come My Way).mp3 */; };
+		0814FCC11A78248100BDB1DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0814FCC01A78248100BDB1DD /* AVFoundation.framework */; };
+		0814FCC31A7826FB00BDB1DD /* Sunrise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0814FCC21A7826FA00BDB1DD /* Sunrise.mp3 */; };
+		0814FCC51A782C2400BDB1DD /* Buffalo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0814FCC41A782C2400BDB1DD /* Buffalo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		0814FCAE1A78238B00BDB1DD /* Playing MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playing MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0814FCB31A78238B00BDB1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0814FCB41A78238B00BDB1DD /* Playing_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing_MusicTests.swift; sourceTree = "<group>"; };
+		0814FCBE1A78245F00BDB1DD /* 01 Sunrise (Come My Way).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Sunrise (Come My Way).mp3"; sourceTree = "<group>"; };
+		0814FCC01A78248100BDB1DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0814FCC21A7826FA00BDB1DD /* Sunrise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sunrise.mp3; sourceTree = "<group>"; };
+		0814FCC41A782C2400BDB1DD /* Buffalo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buffalo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0814FCC11A78248100BDB1DD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 		0814FC901A78238B00BDB1DD = {
 			isa = PBXGroup;
 			children = (
+				0814FCC01A78248100BDB1DD /* AVFoundation.framework */,
 				0814FC9B1A78238B00BDB1DD /* Playing Music */,
 				0814FCB11A78238B00BDB1DD /* Playing MusicTests */,
 				0814FC9A1A78238B00BDB1DD /* Products */,
@@ -80,6 +90,9 @@
 				0814FC9E1A78238B00BDB1DD /* AppDelegate.swift */,
 				0814FCA31A78238B00BDB1DD /* ViewController.swift */,
 				0814FCA51A78238B00BDB1DD /* Main.storyboard */,
+				0814FCC41A782C2400BDB1DD /* Buffalo.jpg */,
+				0814FCC21A7826FA00BDB1DD /* Sunrise.mp3 */,
+				0814FCBE1A78245F00BDB1DD /* 01 Sunrise (Come My Way).mp3 */,
 				0814FCA81A78238B00BDB1DD /* Images.xcassets */,
 				0814FCA01A78238B00BDB1DD /* Playing_Music.xcdatamodeld */,
 				0814FC9C1A78238B00BDB1DD /* Supporting Files */,
@@ -192,7 +205,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0814FCBF1A78245F00BDB1DD /* 01 Sunrise (Come My Way).mp3 in Resources */,
+				0814FCC51A782C2400BDB1DD /* Buffalo.jpg in Resources */,
 				0814FCA71A78238B00BDB1DD /* Main.storyboard in Resources */,
+				0814FCC31A7826FB00BDB1DD /* Sunrise.mp3 in Resources */,
 				0814FCA91A78238B00BDB1DD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
